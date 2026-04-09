@@ -1,0 +1,13 @@
+id,rule_name,trigger_faq_ids,trigger_intent,trigger_keywords,extra_condition,escalation_level,target_queue,sla_minutes,action,priority,is_active
+1,missing_item_after_completed,4,completed_not_received,"not received,missing parcel,completed but missing",order_status=completed,L2,OrderOps,60,freeze_seller_payout_and_investigate,1,true
+2,damaged_item_priority,11,return_damaged_item,"damaged,broken,cracked",evidence_images>=1,L2,AfterSales,60,open_damage_claim_and_request_evidence,1,true
+3,return_rejected_dispute,14,return_rejected_escalation,"seller rejected return,return dispute",buyer_provided_evidence=true,L2,DisputeDesk,120,assign_case_reviewer,1,true
+4,urgent_escalation_request,21,urgent_escalation_request,"urgent,asap,escalate now",none,L2,SupervisorDesk,30,create_priority_ticket,1,true
+5,fraud_or_safety_risk,21,urgent_escalation_request,"fraud,scam,safety,threat",none,L3,RiskControl,15,lock_transaction_and_alert_risk_team,1,true
+6,payment_anomaly,17,payment_failed,"charged twice,payment deducted no order,payment not reflected",payment_status=failed_or_mismatch,L2,FinanceOps,60,verify_gateway_logs_and_refund_if_needed,1,true
+7,seller_no_response_timeout,2,seller_confirmation_delay,"no response,seller not replying",seller_unresponsive_hours>=12,L1,MerchantOps,180,remind_seller_then_auto_escalate,2,true
+8,high_value_dispute,4|11|14,completed_not_received|return_damaged_item|return_rejected_escalation,"high value,expensive",order_amount>=1000,L3,SeniorDisputeDesk,30,assign_senior_case_manager,1,true
+9,repeated_unresolved_contacts,19|22,request_human_agent|support_required_evidence,"still unresolved,contacted before,no solution",repeat_contact_count>=2,L2,SupervisorDesk,45,escalate_with_full_chat_history,1,true
+10,legal_or_police_request,19|21,request_human_agent|urgent_escalation_request,"lawyer,legal,police,report",none,L3,Compliance,20,start_compliance_workflow,1,true
+11,courier_loss_suspected,4|9,completed_not_received|shipping_tracking,"lost package,courier lost",tracking_no_update_hours>=24,L2,LogisticsOps,90,open_logistics_investigation,1,true
+12,manual_handoff_keyword,19,request_human_agent,"human agent,real person,manager",none,L1,HumanSupport,10,transfer_to_live_agent_queue,1,true

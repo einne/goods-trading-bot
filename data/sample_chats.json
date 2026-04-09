@@ -1,0 +1,14 @@
+[
+  {
+    "user": "My order shows completed but I didn't receive it",
+    "intent": "completed_not_received",
+    "route": "escalate",
+    "expected_action": "freeze_seller_payout_and_investigate"
+  },
+  {
+    "user": "How do I use a promotion code?",
+    "intent": "apply_promo_code",
+    "route": "faq",
+    "expected_faq_id": 24
+  }
+]

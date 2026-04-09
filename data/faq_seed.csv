@@ -1,0 +1,31 @@
+id,category,question,answer,keywords,priority,is_active
+1,Order status,How can I check my order status?,Go to My Orders and select the order to view real-time status updates such as pending confirmed in transit or completed.,"order status,track,status,my orders",1,true
+2,Order status,Why is my order still waiting for seller confirmation?,For second-hand items each order needs seller confirmation. Most sellers respond within 12 hours.,"pending,seller confirmation,order waiting",2,true
+3,Order status,Can I cancel an order before pickup?,Yes you can cancel before the item is handed over to campus courier or marked ready for pickup.,"cancel order,pickup,cancel",1,true
+4,Order status,My order shows completed but I have not received the item. What should I do?,Please contact support within 24 hours. We will pause payout and investigate with delivery and seller records.,"completed not received,order issue,investigate",1,true
+5,Order status,What does ready for pickup mean?,It means the seller has dropped off the item and you can collect it at the selected campus pickup point.,"ready for pickup,pickup point,order stage",2,true
+6,Shipping,Do you support campus pickup and dorm delivery?,Yes. You can choose self pickup at campus stations or dorm delivery where available.,"campus pickup,dorm delivery,shipping options",1,true
+7,Shipping,How long does campus delivery take?,Most campus deliveries arrive within the same day or next business day depending on distance and courier load.,"delivery time,campus shipping,same day",2,true
+8,Shipping,How much is the shipping fee for second-hand items?,Shipping fee is calculated by item size weight and delivery method and shown before payment.,"shipping fee,cost,delivery charge",2,true
+9,Shipping,Can I track the package after the seller ships it?,Yes. A tracking number appears in your order details once the item is handed to the courier.,"tracking number,track package,shipping",2,true
+10,Return and refund,Can I return an item if it is not as described?,Yes. You can request return within 48 hours of receipt with photos and issue details.,"not as described,return request,photos",1,true
+11,Return and refund,What if the item is damaged when I receive it?,Report the issue within 24 hours and upload clear photos. Priority refund or return handling will be started.,"damaged item,refund,return",1,true
+12,Return and refund,How long does a refund take after approval?,Refunds are usually completed within 3 to 5 business days after return verification.,"refund time,processing,money back",2,true
+13,Return and refund,Who pays return shipping for disputed items?,If the claim is valid seller pays return shipping. If not valid buyer may need to cover return cost.,"return shipping,dispute,seller buyer",2,true
+14,Return and refund,What can I do if the seller rejects my return request?,You can escalate to platform review. Our team will decide based on chat records photos and listing details.,"seller rejects return,escalation,platform review",1,true
+15,Payment,What payment methods are supported?,We support Alipay WeChat Pay major bank cards and selected campus wallet channels.,"payment,alipay,wechat,bank card",1,true
+16,Payment,Is my payment protected until I receive the item?,Yes. Payment is held by the platform and released to the seller after successful delivery confirmation.,"escrow,payment protection,release",1,true
+17,Payment,Why did my payment fail?,Payment can fail due to balance limits bank risk control or incorrect account details. Please retry or switch method.,"payment failed,declined,retry",1,true
+18,Payment,Can I get a transaction receipt?,Yes. You can download an electronic transaction receipt from order details after payment succeeds.,"receipt,billing,transaction",3,true
+19,Contact human support,How can I contact a human support agent?,Type human support in chat and provide your order number and issue summary to get manual assistance.,"human support,agent,contact",1,true
+20,Contact human support,What are human support working hours?,Human support is available from 9:00 AM to 9:00 PM every day including most holidays.,"support hours,service time,agent",2,true
+21,Contact human support,When should I request urgent escalation?,Please request urgent escalation for safety risks suspected fraud or high-value item disputes.,"urgent escalation,fraud,safety",1,true
+22,Contact human support,What information should I provide to speed up help?,Please share order number item link screenshots and a short timeline of what happened for faster resolution.,"evidence,screenshots,order number,help",2,true
+23,Discount / promotion,Do you offer student discounts?,Yes. Verified students can receive periodic coupons during campus events and seasonal promotions.,"student discount,coupon,campus",2,true
+24,Discount / promotion,How do I use a promotion code?,Enter the code at checkout and confirm the discount is applied before completing payment.,"promo code,discount,checkout",2,true
+25,Discount / promotion,Why is my coupon not working?,Coupons may fail due to expiry minimum spend category limits or first-time-user requirements.,"coupon invalid,expired,minimum spend",1,true
+26,Discount / promotion,Can I combine multiple discounts in one order?,Usually only one platform coupon can be used per order unless a campaign rule states otherwise.,"stacking discounts,combine coupon,promotion rules",3,true
+27,Product availability,How do I know if an item is still available?,If the listing shows available and the Buy button is active the item is still open for purchase.,"availability,in stock,buy button",1,true
+28,Product availability,Can I reserve an item before paying?,Some sellers allow short reservations. Use chat to request hold time and wait for seller confirmation.,"reserve item,hold,preorder",2,true
+29,Product availability,Will sold-out items be restocked?,As a second-hand marketplace most items are unique. Similar items may appear from other sellers later.,"sold out,restock,second hand",2,true
+30,Product availability,What do item condition labels mean?,Condition labels such as Like New Good and Acceptable indicate wear level and are defined in each listing guide.,"condition,label,quality,used item",2,true

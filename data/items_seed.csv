@@ -1,0 +1,21 @@
+id,seller_telegram_user_id,seller_display_name,seller_username,title,category,price,condition_level,description,status,created_at
+1,tg_1001,Alex Wong,alexw,Calculus Textbook MATH101,Books,80.00,Good,Clean pages with light notes,ACTIVE,2026-04-01 10:10:00+08:00
+2,tg_1002,Betty Chan,bettyc,HKBU Hoodie Navy M,Clothing,120.00,Like New,Worn twice and washed,ACTIVE,2026-04-01 12:00:00+08:00
+3,tg_1003,Chris Lee,chrisl,Logitech Wireless Mouse M330,Electronics,95.00,Good,Battery included works well,ACTIVE,2026-04-01 14:25:00+08:00
+4,tg_1004,Daisy Lam,daisyl,Desk Lamp Warm Light,Home,60.00,Good,No flicker stable brightness,ACTIVE,2026-04-01 16:40:00+08:00
+5,tg_1005,Eric Ho,erich,Programming in Python 3rd Ed,Books,70.00,Acceptable,Some highlight marks,ACTIVE,2026-04-02 09:20:00+08:00
+6,tg_1001,Alex Wong,alexw,Apple Pencil 1st Gen,Electronics,350.00,Like New,Original tip and box,ACTIVE,2026-04-02 11:05:00+08:00
+7,tg_1006,Fiona Yip,fionay,Mini Rice Cooker 1.2L,Home,130.00,Good,Works perfectly with steamer tray,ACTIVE,2026-04-02 15:10:00+08:00
+8,tg_1007,Gary Ng,garyng,Portable Phone Tripod,Electronics,45.00,Like New,Lightweight and stable,ACTIVE,2026-04-03 10:30:00+08:00
+9,tg_1008,Helen Tse,helent,Second-hand Bicycle 26 inch,Sports,680.00,Good,Recently serviced with lock,ACTIVE,2026-04-03 13:15:00+08:00
+10,tg_1009,Ivan Lau,ivanl,Office Chair Mesh Back,Furniture,260.00,Good,Comfortable for study sessions,ACTIVE,2026-04-03 18:50:00+08:00
+11,tg_1010,Joyce Mak,joycem,Linear Algebra Notes Pack,Books,35.00,Good,Printed notes and past papers,ACTIVE,2026-04-04 09:40:00+08:00
+12,tg_1002,Betty Chan,bettyc,Sony WH-CH520 Headphones,Electronics,260.00,Like New,Bluetooth battery strong,ACTIVE,2026-04-04 12:35:00+08:00
+13,tg_1003,Chris Lee,chrisl,Data Structures Textbook,Books,88.00,Good,No missing pages,ACTIVE,2026-04-04 16:05:00+08:00
+14,tg_1011,Ken Ip,kenip,Badminton Racket Yonex,Sports,210.00,Good,Grip recently replaced,ACTIVE,2026-04-05 10:45:00+08:00
+15,tg_1012,Lily Poon,lilyp,Monitor 24 inch 1080p,Electronics,520.00,Good,No dead pixels HDMI cable included,ACTIVE,2026-04-05 14:20:00+08:00
+16,tg_1013,Michael So,michaelso,Chemistry Lab Coat Size L,Clothing,50.00,Like New,Used for one semester,ACTIVE,2026-04-05 18:00:00+08:00
+17,tg_1014,Nora Chiu,norac,Dorm Storage Rack 3 Tier,Home,75.00,Good,Easy to assemble,ACTIVE,2026-04-06 09:55:00+08:00
+18,tg_1015,Oscar Hui,oscarh,Graphing Calculator Casio,Electronics,420.00,Good,Exam approved model,ACTIVE,2026-04-06 13:30:00+08:00
+19,tg_1016,Peggy Tang,peggyt,Winter Blanket Single,Home,90.00,Good,Washed and vacuum packed,ACTIVE,2026-04-06 17:35:00+08:00
+20,tg_1017,Raymond Tam,raytam,Microeconomics Textbook,Books,65.00,Acceptable,Useful and readable condition,ACTIVE,2026-04-07 11:10:00+08:00

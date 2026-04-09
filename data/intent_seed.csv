@@ -1,0 +1,31 @@
+id,intent,faq_id,category,sample_utterance,keywords,route,priority,is_active
+1,check_order_status,1,Order status,Where can I check my order status? ,"order status,track,status,my orders",faq,1,true
+2,seller_confirmation_delay,2,Order status,Why is my order still waiting for seller confirmation? ,"pending,seller confirmation,order waiting",faq,2,true
+3,cancel_before_pickup,3,Order status,Can I cancel this order before pickup? ,"cancel order,pickup,cancel",faq,1,true
+4,completed_not_received,4,Order status,My order shows completed but I did not receive it ,"completed not received,missing order,investigate",escalate,1,true
+5,ready_for_pickup_meaning,5,Order status,What does ready for pickup mean? ,"ready for pickup,pickup point,order stage",faq,2,true
+6,shipping_method_choice,6,Shipping,Do you support campus pickup and dorm delivery? ,"campus pickup,dorm delivery,shipping options",faq,1,true
+7,shipping_eta,7,Shipping,How long does campus delivery take? ,"delivery time,campus shipping,same day",faq,2,true
+8,shipping_fee,8,Shipping,How much is shipping for second hand items? ,"shipping fee,cost,delivery charge",faq,2,true
+9,shipping_tracking,9,Shipping,How can I track the package after shipment? ,"tracking number,track package,shipping",faq,2,true
+10,return_not_as_described,10,Return and refund,Can I return if item is not as described? ,"not as described,return request,photos",faq,1,true
+11,return_damaged_item,11,Return and refund,The item arrived damaged what should I do? ,"damaged item,refund,return",escalate,1,true
+12,refund_time,12,Return and refund,How long does a refund take after approval? ,"refund time,processing,money back",faq,2,true
+13,return_shipping_responsibility,13,Return and refund,Who pays return shipping in a dispute? ,"return shipping,dispute,seller buyer",faq,2,true
+14,return_rejected_escalation,14,Return and refund,Seller rejected my return request what now? ,"seller rejects return,escalation,platform review",escalate,1,true
+15,payment_methods_supported,15,Payment,What payment methods are supported? ,"payment,alipay,wechat,bank card",faq,1,true
+16,payment_escrow_protection,16,Payment,Is payment protected until I receive item? ,"escrow,payment protection,release",faq,1,true
+17,payment_failed,17,Payment,Why did my payment fail? ,"payment failed,declined,retry",faq,1,true
+18,transaction_receipt,18,Payment,Can I get a transaction receipt? ,"receipt,billing,transaction",faq,3,true
+19,request_human_agent,19,Contact human support,I want to talk to a human support agent ,"human support,agent,contact",human,1,true
+20,human_support_hours,20,Contact human support,What are human support working hours? ,"support hours,service time,agent",faq,2,true
+21,urgent_escalation_request,21,Contact human support,This issue is urgent please escalate now ,"urgent escalation,fraud,safety",escalate,1,true
+22,support_required_evidence,22,Contact human support,What information should I provide to speed up support? ,"evidence,screenshots,order number,help",faq,2,true
+23,student_discount_info,23,Discount / promotion,Do you offer student discounts? ,"student discount,coupon,campus",faq,2,true
+24,apply_promo_code,24,Discount / promotion,How do I use a promotion code? ,"promo code,discount,checkout",faq,2,true
+25,promo_code_invalid,25,Discount / promotion,Why is my coupon not working? ,"coupon invalid,expired,minimum spend",faq,1,true
+26,discount_stacking_rule,26,Discount / promotion,Can I combine multiple discounts in one order? ,"stacking discounts,combine coupon,promotion rules",faq,3,true
+27,item_still_available,27,Product availability,How do I know whether item is still available? ,"availability,in stock,buy button",faq,1,true
+28,reserve_before_payment,28,Product availability,Can I reserve an item before payment? ,"reserve item,hold,preorder",faq,2,true
+29,soldout_restock,29,Product availability,Will sold out items be restocked? ,"sold out,restock,second hand",faq,2,true
+30,condition_label_explain,30,Product availability,What do item condition labels mean? ,"condition,label,quality,used item",faq,2,true

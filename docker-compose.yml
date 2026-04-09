@@ -1,0 +1,32 @@
+version: "3.9"
+services:
+  smartsupport-bot:
+    build: .
+    container_name: smartsupport-bot
+    restart: unless-stopped
+    env_file:
+      - .env
+    environment:
+      - DATABASE_URL=${DATABASE_URL:-postgresql://smartsupport:smartsupport@postgres:5432/smartsupport}
+    volumes:
+      - ./data:/smartsupport-bot/data
+      - ./config.ini:/smartsupport-bot/config.ini:ro
+    depends_on:
+      - postgres
+
+  postgres:
+    image: postgres:16-alpine
+    container_name: smartsupport-postgres
+    restart: unless-stopped
+    environment:
+      POSTGRES_DB: smartsupport
+      POSTGRES_USER: smartsupport
+      POSTGRES_PASSWORD: smartsupport
+    ports:
+      - "5432:5432"
+    volumes:
+      - pgdata:/var/lib/postgresql/data
+      - ./database/schema_postgres.sql:/docker-entrypoint-initdb.d/01-schema.sql:ro
+
+volumes:
+  pgdata:

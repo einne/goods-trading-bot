@@ -1,0 +1,6 @@
+id,title,event_type,starts_at,ends_at,location,details,status
+1,April Campus Flea Market,Market,2026-04-20 12:00:00+08:00,2026-04-20 18:00:00+08:00,HKBU Main Square,Bring your student card for entry,ACTIVE
+2,Second-hand Textbook Exchange,Exchange,2026-04-23 13:00:00+08:00,2026-04-23 17:00:00+08:00,Library G/F Lobby,Buy and sell used course books,ACTIVE
+3,Online Weekend Listing Boost,Online,2026-04-26 10:00:00+08:00,2026-04-26 23:00:00+08:00,Telegram Channel,Featured listing campaign for student sellers,ACTIVE
+4,May Sustainability Swap Day,Market,2026-05-05 11:00:00+08:00,2026-05-05 17:00:00+08:00,Student Union Hall,Exchange items and reduce waste,ACTIVE
+5,Dorm Essentials Flash Fair,Market,2026-05-10 14:00:00+08:00,2026-05-10 19:00:00+08:00,Jockey Club Campus Plaza,Daily essentials with student pricing,ACTIVE
