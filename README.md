@@ -1,4 +1,4 @@
-# SmartSupport Bot (COMP7940)
+# SmartSupport Bot 
 
 校园二手平台 Telegram Chatbot，按课程方案实现云原生分层架构：
 
