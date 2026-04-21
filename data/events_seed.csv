@@ -1,6 +1,21 @@
 id,title,event_type,starts_at,ends_at,location,details,status
-1,April Campus Flea Market,Market,2026-04-20 12:00:00+08:00,2026-04-20 18:00:00+08:00,HKBU Main Square,Bring your student card for entry,ACTIVE
-2,Second-hand Textbook Exchange,Exchange,2026-04-23 13:00:00+08:00,2026-04-23 17:00:00+08:00,Library G/F Lobby,Buy and sell used course books,ACTIVE
-3,Online Weekend Listing Boost,Online,2026-04-26 10:00:00+08:00,2026-04-26 23:00:00+08:00,Telegram Channel,Featured listing campaign for student sellers,ACTIVE
-4,May Sustainability Swap Day,Market,2026-05-05 11:00:00+08:00,2026-05-05 17:00:00+08:00,Student Union Hall,Exchange items and reduce waste,ACTIVE
-5,Dorm Essentials Flash Fair,Market,2026-05-10 14:00:00+08:00,2026-05-10 19:00:00+08:00,Jockey Club Campus Plaza,Daily essentials with student pricing,ACTIVE
+1,May Campus Flea Market,Market,2026-05-03 12:00:00+08:00,2026-05-03 18:00:00+08:00,HKBU Main Square,Bring your student card for entry,ACTIVE
+2,Second-hand Textbook Exchange Day,Exchange,2026-05-06 13:00:00+08:00,2026-05-06 17:00:00+08:00,Library G/F Lobby,Buy and sell used course books,ACTIVE
+3,Dorm Essentials Pop-up,Market,2026-05-09 14:00:00+08:00,2026-05-09 19:00:00+08:00,Jockey Club Campus Plaza,Daily essentials with student pricing,ACTIVE
+4,Weekend Online Listing Boost,Online,2026-05-12 10:00:00+08:00,2026-05-12 23:00:00+08:00,Telegram Channel,Featured listing campaign for student sellers,ACTIVE
+5,Sustainable Swap Workshop,Workshop,2026-05-15 15:00:00+08:00,2026-05-15 17:00:00+08:00,Student Union Hall,Learn reuse tips and swap useful items,ACTIVE
+6,Electronics Trade Corner,Exchange,2026-05-19 13:30:00+08:00,2026-05-19 18:00:00+08:00,AAB Courtyard,Student trade-in for gadgets and accessories,ACTIVE
+7,Exam Season Book Bazaar,Market,2026-05-22 11:00:00+08:00,2026-05-22 17:00:00+08:00,Library Outdoor Area,Discounted exam prep books and notes,ACTIVE
+8,Home Appliance Mini Fair,Market,2026-05-26 12:00:00+08:00,2026-05-26 18:00:00+08:00,Baptist University Road Lawn,Used dorm appliances at student price,ACTIVE
+9,Graduation Clear-out Week,Campaign,2026-05-30 09:00:00+08:00,2026-06-03 21:00:00+08:00,SmartSupport App,Graduating students clear out items with fee waiver,ACTIVE
+10,June Night Market,Market,2026-06-05 17:00:00+08:00,2026-06-05 21:30:00+08:00,Main Square,Evening market with lighting and music,ACTIVE
+11,Summer Sports Gear Swap,Exchange,2026-06-09 14:00:00+08:00,2026-06-09 18:30:00+08:00,Sports Centre Entrance,Exchange rackets shoes and training wear,ACTIVE
+12,Creative Desk Setup Showcase,Workshop,2026-06-13 15:00:00+08:00,2026-06-13 17:00:00+08:00,Learning Commons,Share and sell study desk accessories,ACTIVE
+13,Tech Accessories Flash Sale,Online,2026-06-17 12:00:00+08:00,2026-06-17 22:00:00+08:00,Telegram Channel,One-day featured sale for chargers stands and cables,ACTIVE
+14,Community Donation Trade Day,Campaign,2026-06-21 11:00:00+08:00,2026-06-21 17:30:00+08:00,Student Union Hall,Trade useful items and donate leftovers,ACTIVE
+15,July New Term Preview Fair,Market,2026-07-04 12:00:00+08:00,2026-07-04 18:00:00+08:00,HKBU Main Square,Early-bird listing and buying day,ACTIVE
+16,Furniture & Storage Exchange,Exchange,2026-07-10 13:00:00+08:00,2026-07-10 19:00:00+08:00,Residential Colleges Plaza,Focus on shelves chairs and storage boxes,ACTIVE
+17,Stationery Budget Market,Market,2026-07-16 11:30:00+08:00,2026-07-16 17:30:00+08:00,Library G/F Lobby,Back-to-class stationery bundles,ACTIVE
+18,August Move-in Essentials Fair,Market,2026-08-02 12:00:00+08:00,2026-08-02 18:00:00+08:00,Jockey Club Campus Plaza,Find affordable move-in essentials,ACTIVE
+19,Orientation Week Item Match,Campaign,2026-08-20 10:00:00+08:00,2026-08-22 22:00:00+08:00,SmartSupport App,New students get recommended item bundles,ACTIVE
+20,Welcome Semester Reuse Festival,Festival,2026-09-06 11:00:00+08:00,2026-09-06 19:00:00+08:00,HKBU Main Square,Large-scale second-hand festival and promo coupons,ACTIVE
