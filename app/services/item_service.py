@@ -138,6 +138,45 @@ def search_active_items(query: str | None = None, limit: int = 8) -> List[Dict[s
         conn.close()
 
 
+def list_user_items(telegram_user_id: str, limit: int = 20) -> List[Dict[str, Any]]:
+    """List items posted by a specific Telegram user."""
+    conn, engine = get_connection()
+    try:
+        if engine == "postgres":
+            with conn.cursor() as cur:
+                cur.execute(
+                    """
+                    SELECT i.id, i.title, i.category, i.price, i.condition_level, i.description,
+                           i.status, i.created_at, u.username
+                    FROM items i
+                    JOIN users u ON u.id = i.seller_id
+                    WHERE u.telegram_user_id = %s
+                    ORDER BY i.created_at DESC
+                    LIMIT %s
+                    """,
+                    (telegram_user_id, limit),
+                )
+                rows = cur.fetchall()
+                columns = [desc[0] for desc in cur.description]
+                return [dict(zip(columns, row)) for row in rows]
+
+        rows = conn.execute(
+            """
+            SELECT i.id, i.title, i.category, i.price, i.condition_level, i.description,
+                   i.status, i.created_at, u.username
+            FROM items i
+            JOIN users u ON u.id = i.seller_id
+            WHERE u.telegram_user_id = ?
+            ORDER BY i.created_at DESC
+            LIMIT ?
+            """,
+            (telegram_user_id, limit),
+        ).fetchall()
+        return [dict(row) for row in rows]
+    finally:
+        conn.close()
+
+
 def publish_item(
     *,
     telegram_user_id: str,
@@ -246,4 +285,3 @@ def delist_item(
         return True, "Item has been delisted successfully."
     finally:
         conn.close()
-
